@@ -182,7 +182,7 @@ label i{
 
 
 
-@media screen and (max-width: 600px)
+@media (max-width: 1000px)
 {
 	.container{
 		margin: 10px;
@@ -198,4 +198,28 @@ label i{
 		padding: 10px 20px;
 		box-shadow: 5px 10px 18px #888888;
 	}
+	
+}
+
+@media (max-width: 600px)
+{
+	.about .box{
+	flex-direction: column;
+	
+	}
+	.about .box .text p{
+	display: grid;
+	flex-direction: row;
+	
+	}
+	label{
+		margin-top: 10px;
+		padding: 10px 20px;
+		box-shadow: 5px 10px 18px #888888;
+	}
+	.about .project{
+	flex-direction: columns;
+
+}
+	
 }
